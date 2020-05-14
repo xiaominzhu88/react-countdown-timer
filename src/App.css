@@ -1,38 +1,59 @@
-.App {
+.App,
+.datecounter {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style: none;
+  font-weight: bold;
+  font-family: cursive;
+  text-shadow: 1px 3px 2px silver;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 2.5em;
+  text-shadow: 1px 3px 2px silver;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  width: 7em;
+  height: 3em;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 3px 3px lightpink;
+  background-color: rgb(217, 236, 230);
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  margin-right:2em;
 }
 
-.App-link {
-  color: #61dafb;
+
+button:hover {
+  background-color: yellow;
+  color: blue;
+  font-weight: 700;
+}
+button:active {
+  transition: transformY(4px);
+  background-color: rgb(235, 208, 121);
+}
+h2,
+h3 {
+  color: blue;
+  font-family: cursive;
+  text-shadow: 0px 2px 2px rgb(214, 11, 55);
+  text-align: center;
+}
+p {
+  margin-top: 3em;
+  color: blue;
+  font-size: 1em;
+  font-family: cursive;
+  text-shadow: 0px 2px 2px rgb(214, 11, 55);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
