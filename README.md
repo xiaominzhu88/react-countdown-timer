@@ -9,4 +9,4 @@ Button click to get a image
 
 ### Second link
 
-It is running current and countdown to show the left time to 12.12.2020 
+It is running current and countdown to show the left time to 31.12.2020 
