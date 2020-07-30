@@ -10,11 +10,11 @@ const App = () => {
     <div className="App">
       <Router>
         <ul>
-          <li key='newyear'>
-            <Link to="/NewYearCounter">NewYearCounter</Link>
-          </li>
-          <li key='date'>
+          <li key="date">
             <Link to="/DateCounter">DateCounter</Link>
+          </li>
+          <li key="newyear">
+            <Link to="/NewYearCounter">NewYearCounter</Link>
           </li>
           <li>
             <Link to="/CustomCounter">CustomCounter</Link>
@@ -22,10 +22,9 @@ const App = () => {
         </ul>
         <Route exact path="/" component={NewYearCounter} />
 
+        <Route path="/DateCounter" component={DateCounter} />
         <Route path="/NewYearCounter" component={NewYearCounter} />
 
-        <Route path="/DateCounter" component={DateCounter} />
-        
         <Route path="/CustomCounter" component={CreateCustomCounter} />
       </Router>
     </div>
