@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-        <ul>
+        <ul style={{ marginTop: '3em', textAlign: 'center' }}>
           <li key="date">
             <Link to="/DateCounter">DateCounter</Link>
           </li>
@@ -20,7 +20,7 @@ const App = () => {
             <Link to="/CustomCounter">CustomCounter</Link>
           </li>
         </ul>
-        <Route exact path="/" component={NewYearCounter} />
+        <Route exact path="/" component={DateCounter} />
 
         <Route path="/DateCounter" component={DateCounter} />
         <Route path="/NewYearCounter" component={NewYearCounter} />

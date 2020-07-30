@@ -34,7 +34,7 @@ const CreateCustomCounter = () => {
   }, [date, time]);
 
   return (
-    <div>
+    <div style={{ padding: '1em' }}>
       {counterConfigured ? (
         <CustomCounter
           name={name}
